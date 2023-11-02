@@ -1,14 +1,12 @@
 package com.jayastudent.student_crud.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name="student_spring_records")
 public class Student {
     @Id
+
     private int roll;
     @Column
     private String name;
