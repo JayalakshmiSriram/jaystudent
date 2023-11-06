@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: student-test-service
+spec:
+  selector:
+    app.kubernetes.io/name: student-deployment
+  ports:
+    - protocol: "TCP"
+      port: 8090
+      targetPort: 8090
+
+  type: NodePort
