@@ -39,7 +39,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-docker-compose -->
+		<!-- /clusterIP: 10.0.171.239 https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-docker-compose -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-docker-compose</artifactId>
